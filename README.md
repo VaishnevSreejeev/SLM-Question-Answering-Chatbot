@@ -44,7 +44,7 @@ This project implements an **interactive question-answering (QA) chatbot** based
 ### Steps to Install
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/VaishnevSreejeev/slm-question-answering.git
+   git clone https://github.com/VaishnevSreejeev/slm-question-answering
    cd slm-question-answering
    ```
 
