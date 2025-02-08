@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+torch
+transformers
+sentence-transformers
+tqdm
+nltk
+pytest
+accelerate>=0.26.0
+gradio
+streamlit

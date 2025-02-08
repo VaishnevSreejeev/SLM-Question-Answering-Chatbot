@@ -1,0 +1,17 @@
+[
+    {
+        "context": "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do. Once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, 'and what is the use of a book,' thought Alice, 'without pictures or conversations?'",
+        "question": "What did Alice think about the book her sister was reading?",
+        "answer": "it had no pictures or conversations"
+    },
+    {
+        "context": "The main theme of the story is curiosity and exploration. Throughout her journey, Alice encounters bizarre characters such as the White Rabbit, the Cheshire Cat, the Mad Hatter, and the Queen of Hearts.",
+        "question": "What is the main theme of the story?",
+        "answer": "curiosity and exploration"
+    },
+    {
+        "context": "One of the central ideas of the book is the importance of imagination. Alice's adventures highlight the power of creativity and the ability to find wonder in the unknown.",
+        "question": "What is one of the central ideas of the book?",
+        "answer": "the importance of imagination"
+    }
+]
