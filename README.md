@@ -62,6 +62,10 @@ This project implements an **interactive question-answering (QA) chatbot** based
 4. **Prepare the Book File:**
    - Place your book file in the `data/Raw/` directory.
    - Ensure the file is named `Book.txt`.
+  
+5. **Run the fine_tune.py:**
+   -create slm-question-answering\models
+   -the final model is to be stored in the same directory as slm-question-answering\models\final_model\model.safetensors ie in final_model
 
 ---
 
