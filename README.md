@@ -94,23 +94,38 @@ The project is organized into modular components for clarity and maintainability
 
 ```
 slm-question-answering/
-├── data/                  # Raw and processed data
-│   ├── Raw/               # Original book file (Book.txt)
-│   └── custom_dataset.json # Custom dataset for fine-tuning
-├── models/                # Pretrained and fine-tuned models
-│   └── final_model/       # Fine-tuned QA model
-├── outputs/               # Logs, conversation history, etc.
-├── src/                   # Source code
-│   ├── preprocessing.py   # Text preprocessing and chunking
-│   ├── retrieval.py       # Text retrieval using embeddings
-│   ├── model.py           # QA model inference
-│   ├── utils.py           # Utility functions
-│   ├── run.py             # Terminal-based chatbot
-│   ├── run_gradio.py      # Gradio-based chatbot
-│   └── run_streamlit.py   # Streamlit-based chatbot
-├── requirements.txt       # List of dependencies
-├── README.md              # Project documentation
-└── LICENSE                # License file
+│
+├── venv/                     # Virtual environment (ignored by Git)
+│
+├── data/                     # Store raw and processed data
+│   ├── raw/                  # Raw book files (e.g., .txt or .pdf)
+│   └── processed/            # Preprocessed text files
+│
+├── models/                   # Store trained models and checkpoints
+│   ├── checkpoints/          # Intermediate model checkpoints
+│   └── final_model/          # Final fine-tuned model
+│
+├── notebooks/                # Jupyter notebooks for experimentation (optional)
+│   └── exploratory_analysis.ipynb
+│
+├── src/                      # Source code for the project
+│   ├── preprocessing.py      # Text preprocessing functions
+│   ├── fine_tune.py          # Retrieval pipeline
+│   ├── model.py              # Model architecture and training logic
+│   ├── retrieval.py          # Retrieval pipeline
+│   ├── evaluation.py         # Evaluation metrics
+│   └── utils.py              # Helper functions
+│
+├── tests/                    # Unit tests for your code (optional)
+│   └── test_preprocessing.py
+│
+├── outputs/                  # Generated outputs (e.g., predictions, logs)
+│   ├── predictions.json
+│   └── logs/
+│
+├── README.md                 # Project documentation
+├── requirements.txt          # Python dependencies
+└── run.py                    # Main script to execute the pipeline
 ```
 
 ---
